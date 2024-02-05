@@ -36,9 +36,9 @@ convertButton.addEventListener("click", function(){
 })
 
 function Convert(input){
-    KiloPoud.textContent = `${capturedValue} pounds = ${KilostoPounds.toFixed(2)} kilos | ${capturedValue} kilos = ${FeettoMeters.toFixed(2)} pounds`
-    MeterFeet.textContent = `${capturedValue} feet = ${FeettoMeters.toFixed(2)} meters | ${capturedValue} meters = ${MeterstoFeet.toFixed(2)} feet`
-    LiterGallon.textContent = `${capturedValue} gallons = ${GallonstoLiters.toFixed(2)} liters | ${capturedValue} liters = ${LiterstoGallons.toFixed(2)} gallons`
+    KiloPoud.textContent = `${capturedValue} pounds = ${KilostoPounds.toFixed(3)} kilos | ${capturedValue} kilos = ${FeettoMeters.toFixed(3)} pounds`
+    MeterFeet.textContent = `${capturedValue} feet = ${FeettoMeters.toFixed(3)} meters | ${capturedValue} meters = ${MeterstoFeet.toFixed(3)} feet`
+    LiterGallon.textContent = `${capturedValue} gallons = ${GallonstoLiters.toFixed(3)} liters | ${capturedValue} liters = ${LiterstoGallons.toFixed(3)} gallons`
 
 
 }
